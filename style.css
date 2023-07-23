@@ -1,0 +1,35 @@
+body{
+    font-family: "Combo";
+    
+}
+#enviar,#ordenar{
+height: 60px;
+width: 20%;
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: aqua;
+color: rgb(243, 148, 6);
+font-size: 25px;
+font-family:'=Combo';
+    
+}
+
+input{
+    margin: 10px;
+    height: 40px;
+    width: 20%;
+    font-size: 20px;
+}
+h3
+{
+    font-size: 45px;
+    color: rgb(19, 184, 7);
+    background-color: aliceblue;
+}
+#ver
+{
+    color: aliceblue;
+    background-color: black;
+    font-size: 35px;
+    
+}

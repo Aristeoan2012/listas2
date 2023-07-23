@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Blaka&family=Combo&family=Fredericka+the+Great&family=Press+Start+2P&family=Shadows+Into+Light&family=Smooch&display=swap" rel="stylesheet">
+    <script src="main2.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body background="fondo.png">
+    <center>
+        <br>
+        <br>
+        <h3>Lista de las seleciones que han ganado un mundial </h3>
+        <div>
+            <span>1</span>
+            <input type="text" placeholder="Nombre de la seleccion" id="nombre1">
+            <br><br>
+            <span>2</span>
+            <input type="text" placeholder="Nombre de la seleccion" id="nombre2">
+            <br><br>
+            <span>3</span>
+            <input type="text" placeholder="Nombre de la seleccion" id="nombre3">
+            <br><br>
+            <span>4</span>
+            <input type="text" placeholder="Nombre de la seleccion" id="nombre4">
+            <br><br>
+        </div>
+        <button onclick="submit()" id="enviar">Enviar</button>
+        <br><br>
+        <div id="ver_comas"></div>
+        <hr>
+        <div id="ver_sin_comas"></div>
+        <br><br><br>
+        <button onclick="sort()" id="ordenar">Ordenar</button>
+        <br>
+        <br>
+        <button onclick="anterior()" id="ordenar">Anterior</button>
+    </center>
+</body>
+</html>

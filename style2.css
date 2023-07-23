@@ -1,0 +1,42 @@
+body{
+    font-family: "Combo";
+    background-image: url("https://wallpaperaccess.com/full/1929189.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#enviar,#ordenar{
+height: 60px;
+width: 20%;
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: rgb(115, 3, 3);
+color: rgb(255, 255, 255);
+font-size: 25px;
+font-family:'=Combo';
+    
+}
+
+input{
+    margin: 10px;
+    height: 40px;
+    width: 20%;
+    font-size: 20px;
+}
+h3
+{
+    font-size: 45px;
+    color: rgb(253, 254, 253);
+    background-color: rgb(2, 62, 111);
+}
+#ver_comas,#ver_sin_comas
+{
+    color: aliceblue;
+    background-color: rgb(74, 4, 4);
+    font-size: 35px;
+    
+}
+span{
+    color: aliceblue;
+    font-size: 45px;
+    background-color: blue;
+}
